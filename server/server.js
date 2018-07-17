@@ -15,7 +15,7 @@ const port = process.env.PORT;
 app.use(cors());
 app.use(bodyParser.json());
 
-//Start of Trade Methods
+// Start of Trade Methods
 
 //Add Method
 app.post('/trades', (req, res) => {
